@@ -1,0 +1,41 @@
+# AWS Services Used
+
+## Amazon S3
+
+Stores raw and processed datasets.
+
+---
+
+## AWS Glue
+
+Performs ETL using PySpark.
+
+---
+
+## AWS Glue Catalog
+
+Maintains metadata for processed datasets.
+
+---
+
+## Amazon Athena
+
+Executes serverless SQL queries directly on S3.
+
+---
+
+## Amazon Redshift
+
+Acts as the cloud data warehouse for analytical queries.
+
+---
+
+## Amazon QuickSight
+
+Creates interactive dashboards and business reports.
+
+---
+
+## AWS IAM
+
+Manages secure access to AWS resources.
