@@ -1,0 +1,142 @@
+# 🏋️ Gym Analytics Data Pipeline using AWS
+
+An end-to-end cloud-based Data Engineering project that processes gym performance and diet data using AWS services to generate actionable business insights through interactive dashboards.
+
+---
+
+## 🚀 Overview
+
+Gym management systems collect large amounts of workout and nutrition data but often fail to extract meaningful insights. This project builds a scalable AWS-based analytics pipeline that automates data ingestion, transformation, storage, and visualization.
+
+The pipeline leverages AWS services including Amazon S3, AWS Glue, Amazon Athena, Amazon Redshift, and Amazon QuickSight to transform raw CSV datasets into analytics-ready data.
+
+---
+
+## ✨ Features
+
+- Automated ETL pipeline using AWS Glue (PySpark)
+- Cloud-based data lake using Amazon S3
+- Serverless SQL analytics with Amazon Athena
+- Data warehouse using Amazon Redshift
+- Interactive dashboards using Amazon QuickSight
+- BMI calculation and categorization
+- Weekly workout & nutrition analytics
+- Trainer performance analysis
+- Membership retention analysis
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- PySpark
+- SQL
+- Amazon S3
+- AWS Glue
+- AWS Glue Catalog
+- Amazon Athena
+- Amazon Redshift
+- Amazon QuickSight
+- AWS IAM
+
+---
+
+## 📊 AWS Architecture
+
+```
+Raw CSV Files
+        │
+        ▼
+Amazon S3
+        │
+        ▼
+AWS Glue ETL (PySpark)
+        │
+        ▼
+AWS Glue Data Catalog
+    │            │
+    ▼            ▼
+Amazon Athena  Amazon Redshift
+       │         │
+       └────┬────┘
+            ▼
+Amazon QuickSight
+            │
+            ▼
+Interactive Dashboards
+```
+
+---
+
+## 📂 Dataset
+
+The project processes multiple datasets including:
+
+- Members
+- Workout Logs
+- Diet Logs
+- Trainer Details
+
+Key attributes include
+
+- Height
+- Weight
+- BMI
+- Workout Duration
+- Calories Burned
+- Calories Intake
+- Protein Intake
+- Workout Intensity
+- Membership Type
+
+---
+
+## ⚙️ ETL Pipeline
+
+The AWS Glue PySpark job performs:
+
+- Data Cleaning
+- Null Value Removal
+- Duplicate Removal
+- Date Standardization
+- BMI Calculation
+- Workout Intensity Encoding
+- Weekly Aggregations
+- Data Export in Parquet Format
+
+---
+
+## 📈 Dashboard Insights
+
+The dashboard provides
+
+- BMI Distribution
+- Workout Effectiveness
+- Diet vs Workout Analysis
+- Trainer Performance Leaderboard
+- Peak Gym Traffic
+- Membership Retention
+- Weekly Nutrition Trends
+
+---
+
+## 📁 Project Structure
+
+```text
+architecture/
+data/
+dashboards/
+docs/
+glue_jobs/
+sql/
+screenshots/
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Real-time streaming using Amazon Kinesis
+- SageMaker based prediction models
+- Mobile dashboard
+- IoT integration with fitness wearables
