@@ -1,0 +1,16 @@
+member_id,name,age,gender,weight_kg,height_cm,join_date,trainer_id
+M0001,Aarav Sharma,28,Male,78.5,175,2025-01-12,T001
+M0002,Diya Patel,24,Female,58.2,162,2025-01-15,T004
+M0003,Kabir Malhotra,35,Male,92.1,180,2025-01-20,T003
+M0004,Ishita Verma,30,Female,64.0,165,2025-02-01,T002
+M0005,Rohit Yadav,26,Male,70.3,172,2025-02-05,T001
+M0006,Sneha Reddy,22,Female,54.8,158,2025-02-10,T004
+M0007,Aditya Kumar,40,Male,88.7,178,2025-02-14,T006
+M0008,Meera Iyer,27,Female,60.5,160,2025-02-18,T005
+M0009,Karan Joshi,33,Male,95.4,182,2025-02-22,T003
+M0010,Neha Gupta,29,Female,67.2,168,2025-03-01,T002
+M0011,Siddharth Rao,31,Male,82.0,177,2025-03-05,T001
+M0012,Tanvi Bhatt,25,Female,55.5,159,2025-03-09,T004
+M0013,Rahul Chatterjee,38,Male,90.2,181,2025-03-12,T006
+M0014,Pooja Menon,23,Female,52.9,155,2025-03-18,T005
+M0015,Varun Saxena,29,Male,76.8,174,2025-03-22,T001

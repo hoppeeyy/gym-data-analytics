@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# AWS
+.aws/
+*.pem
+
+# Data
+data/raw/*.csv
+data/processed/
+*.parquet
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env

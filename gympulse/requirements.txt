@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+boto3
+s3fs
+pytest
